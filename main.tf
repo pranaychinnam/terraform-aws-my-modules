@@ -16,7 +16,7 @@ provider "aws" {
 # }
 
 resource "aws_instance" "example" {
-  ami           = "ami-05fa00d4c63e32376"  # Amazon Linux 2023 (Mumbai)
+  ami           = "ami-03bb6d83c60fc5f7c"  # Amazon Linux 2023 (Mumbai)
   instance_type = "t2.micro"
 
   tags = {

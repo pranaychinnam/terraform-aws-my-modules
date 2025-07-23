@@ -29,7 +29,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/pranaychinnam/terraform-aws-my-modules.git'
             }
         }
-
         stage('Terraform Init') {
             steps {
                 dir("terraform/${params.ENVIRONMENT}") {

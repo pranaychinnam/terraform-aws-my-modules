@@ -7,6 +7,6 @@ resource "aws_instance" "foo" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "jenkins-deploy-test"
+    Name = "jenkins-nonprod-deploy"
   }
 }
